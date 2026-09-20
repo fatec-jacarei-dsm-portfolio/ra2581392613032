@@ -3,35 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio Digital | Enzo Suzuki</title>
     <link rel="icon" type="image/png" href="assets/img/code.png" />
-    <meta
-      name="description"
-      content="Portfólio acadêmico de Enzo Suzuki Prokopas, estudante de Desenvolvimento de Software Multiplataforma."
-    />
-    <title>Portfólio</title>
     <link rel="stylesheet" href="assets/css/index.css" />
   </head>
 
   <body>
     <header class="header">
-      <div class="container header-container">
-        <a href="#inicio" class="logo">
-          <span>&lt;/&gt;</span>
-          <span>ENZO SUZUKI</span>
-        </a>
+      <div class="container header-content">
+        <a href="#inicio" class="logo">ENZO SUZUKI</a>
 
         <button class="menu-button" id="menuButton" aria-label="Abrir menu">
-          <span></span>
-          <span></span>
-          <span></span>
+          ☰
         </button>
 
         <nav class="nav" id="nav">
-          <a href="#inicio">Início</a>
           <a href="#sobre">Sobre</a>
           <a href="#projetos">Projetos</a>
-          <a href="#tecnologias">Tecnologias</a>
-          <a href="#video">Apresentação</a>
+          <a href="#conhecimentos">Conhecimentos</a>
+          <a href="#apresentacao">Apresentação</a>
           <a href="#contato">Contato</a>
         </nav>
       </div>
@@ -39,75 +29,59 @@
 
     <main>
       <section class="hero" id="inicio">
-        <div class="container hero-grid">
-          <div class="hero-content">
-            <p class="eyebrow">PORTFÓLIO ACADÊMICO • DSM</p>
+        <div class="container hero-content">
+          <div class="hero-text">
+            <p class="eyebrow">PORTFÓLIO DIGITAL · 2DSM</p>
 
             <h1>
-              Olá, eu sou
-              <span>Enzo Suzuki Prokopas.</span>
+              Construindo ideias
+              <span>através do código.</span>
             </h1>
 
-            <h2>Estudante de Desenvolvimento de Software Multiplataforma.</h2>
-
             <p class="hero-description">
-              Estudante da Fatec com interesse em desenvolvimento de software,
-              programação e criação de jogos e aplicações web.
+              Meu nome é Enzo Suzuki Prokopas. Sou estudante de Desenvolvimento
+              de Software Multiplataforma na Fatec Jacareí.
             </p>
 
-            <div class="hero-buttons">
-              <a href="#projetos" class="button button-primary">
-                Ver projetos
-                <span>↓</span>
-              </a>
+            <a
+              class="button"
+              href="https://github.com/EnzoSuzukiProkopas"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub →
+            </a>
 
-              <a href="#sobre" class="button button-secondary"> Sobre mim </a>
-            </div>
-
-            <div class="hero-socials">
-              <a
-                href="https://github.com/EnzoSuzukiProkopas"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub ↗
-              </a>
-
-              <a
-                href="https://www.linkedin.com/in/enzo-suzuki-1756b7435/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                LinkedIn ↗
-              </a>
-            </div>
+            <a
+              class="button"
+              href="https://www.linkedin.com/in/enzo-suzuki-1756b7435/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn →
+            </a>
           </div>
 
-          <div class="hero-visual">
-            <div class="code-window">
-              <div class="code-header">
-                <div class="code-dots">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </div>
-
-                <p>developer.js</p>
-              </div>
-
-              <div class="code-content">
-                <pre><code><span class="code-purple">const</span> developer <span class="code-white">=</span> <span class="code-blue">{</span>
-    name<span class="code-white">:</span> <span class="code-green">"Enzo Suzuki"</span>,
-    course<span class="code-white">:</span> <span class="code-green">"DSM"</span>,
-    semester<span class="code-white">:</span> <span class="code-orange">2</span>,
-    interests<span class="code-white">:</span> <span class="code-blue">[</span>
-        <span class="code-green">"Web"</span>,
-        <span class="code-green">"Software"</span>,
-        <span class="code-green">"Programming"</span>
-    <span class="code-blue">]</span>
-<span class="code-blue">}</span>;</code></pre>
-              </div>
+          <div class="hero-file">
+            <div class="file-top">
+              <span>ARQUIVO_2026</span>
+              <span>01</span>
             </div>
+
+            <div class="file-line"></div>
+
+            <p class="file-label">Atualmente</p>
+            <p class="file-value">2º semestre</p>
+
+            <p class="file-label">Formação</p>
+            <p class="file-value">
+              Desenvolvimento de Software Multiplataforma
+            </p>
+
+            <p class="file-label">Instituição</p>
+            <p class="file-value">FATEC JACAREÍ</p>
+
+            <div class="file-stamp">DSM</div>
           </div>
         </div>
       </section>
@@ -115,103 +89,64 @@
       <section class="section" id="sobre">
         <div class="container">
           <div class="section-heading">
-            <p class="section-number">01</p>
-
-            <div>
-              <p class="section-label">SOBRE MIM</p>
-
-              <h2>
-                Conheça um pouco
-                <span>mais.</span>
-              </h2>
-            </div>
+            <p class="eyebrow">01 · SOBRE</p>
+            <h2>Quem sou eu</h2>
           </div>
 
           <div class="about-grid">
-            <div class="about-photo">
+            <div class="about-image">
               <img
                 src="assets/img/PerfilImagem.jpeg"
-                alt="Foto de Enzo Suzuki Prokopas"
+                alt="Perfil Foto"
               />
             </div>
 
             <div class="about-content">
-              <p class="about-text">
+              <p class="section-intro">
                 Sou estudante de Desenvolvimento de Software Multiplataforma na
-                Fatec.
+                Fatec Jacareí.
               </p>
 
-              <p class="about-text">
-                Atualmente estou no 2DSM, desenvolvendo minhas habilidades
-                através de projetos acadêmicos, estudos individuais e
-                experimentação com diferentes tecnologias.
+              <p>
+                Durante minha formação, venho desenvolvendo conhecimentos em
+                programação, desenvolvimento web, bancos de dados e engenharia
+                de software por meio de projetos acadêmicos e estudos
+                individuais.
               </p>
 
-              <p class="about-text">
-                Meu objetivo é continuar aprendendo, transformando ideias em
-                projetos e evoluindo como desenvolvedor.
+              <p>
+                Gosto de transformar ideias em projetos, experimentar
+                tecnologias e entender como as diferentes partes de um sistema
+                se conectam.
               </p>
 
-              <div class="about-stats">
-                <div class="stat-card">
-                  <strong> 02 </strong>
-
-                  <span> Semestre atual </span>
+              <div class="stats">
+                <div class="stat">
+                  <strong>DSM</strong>
+                  <span>CURSO</span>
                 </div>
 
-                <div class="stat-card">
-                  <strong> 02 </strong>
-
-                  <span> ABPs desenvolvidas </span>
+                <div class="stat">
+                  <strong>02</strong>
+                  <span>SEMESTRE</span>
                 </div>
 
-                <div class="stat-card">
-                  <strong> ∞ </strong>
-
-                  <span> Aprendizado contínuo </span>
+                <div class="stat">
+                  <strong>FATEC</strong>
+                  <span>INSTITUIÇÃO</span>
                 </div>
               </div>
-            </div>
-          </div>
 
-          <div class="extra-info">
-            <div class="info-block">
-              <h3>Áreas de interesse</h3>
+              <div class="interests">
+                <p class="small-title">Áreas de interesse</p>
 
-              <div class="tag-list">
-                <span> Desenvolvimento Web </span>
-
-                <span> Programação </span>
-
-                <span> Back-end </span>
-
-                <span> Desenvolvimento de Software </span>
-
-                <span> Jogos </span>
-              </div>
-            </div>
-
-            <div class="info-block">
-              <h3>Idiomas</h3>
-
-              <div class="tag-list">
-                <span> Português — Nativo </span>
-                <span> Inglês — Avançado </span>
-                <span> Japonês — Inicial </span>
-              </div>
-            </div>
-
-            <div class="info-block">
-              <h3>Interesses pessoais</h3>
-
-              <div class="tag-list">
-                <span> Animes </span>
-
-                <span> Tecnologia </span>
-
-                <span> Games </span>
-
-                <span> Design </span>
+                <div class="tags">
+                  <span>Desenvolvimento Web</span>
+                  <span>Programação</span>
+                  <span>Back-end</span>
+                  <span>Software</span>
+                  <span>Jogos</span>
+                </div>
               </div>
             </div>
           </div>
@@ -221,330 +156,152 @@
       <section class="section projects-section" id="projetos">
         <div class="container">
           <div class="section-heading">
-            <p class="section-number">02</p>
-
-            <div>
-              <p class="section-label">PROJETOS</p>
-
-              <h2>
-                O que estou
-                <span>construindo.</span>
-              </h2>
-            </div>
+            <p class="eyebrow">02 · PROJETOS</p>
+            <h2>Projetos acadêmicos</h2>
           </div>
 
-          <div class="project-category">
-            <div class="category-heading">
-              <span></span>
+          <div class="projects-grid">
+            <article
+              class="project-card"
+              data-project="scrum"
+              tabindex="0"
+              role="button"
+              aria-label="Abrir detalhes do projeto Scrum Dungeon"
+            >
+              <div class="project-number">01</div>
 
-              <h3>Projetos Acadêmicos</h3>
-            </div>
+              <div class="project-content">
+                <p class="project-semester">1DSM · 1º Sem. 2026</p>
+                <h3>Scrum Dungeon</h3>
 
-            <div class="projects-grid">
-              <article class="project-card">
-                <div class="project-image project-image-one">
-                  <span> 2DSM </span>
+                <p>
+                  Projeto desenvolvido no primeiro semestre, utilizando uma
+                  experiência em estilo RPG para ensinar conceitos de Scrum.
+                </p>
+
+                <div class="project-footer">
+                  <div class="project-technologies">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                    <span>EJS</span>
+                  </div>
+
+                  <span class="project-arrow">→</span>
                 </div>
+              </div>
+            </article>
 
-                <div class="project-content">
-                  <div class="project-top">
-                    <span class="project-type"> 2DSM — 2º Sem. 2026 </span>
+            <article
+              class="project-card project-placeholder"
+              data-project="abp2"
+              tabindex="0"
+              role="button"
+              aria-label="Abrir detalhes do ABP 2"
+            >
+              <div class="project-number">02</div>
 
-                    <span class="project-number"> 01 </span>
+              <div class="project-content">
+                <p class="project-semester">2DSM · 2º Sem. 2026</p>
+                <h3>ABP 2</h3>
+
+                <p>
+                  Projeto acadêmico do segundo semestre. Conteúdo em
+                  desenvolvimento.
+                </p>
+
+                <div class="project-footer">
+                  <div class="project-technologies">
+                    <span>EM BREVE</span>
                   </div>
 
-                  <h3>Projeto 2DSM</h3>
-
-                  <p>
-                    Projeto segundo semestre do curso de Desenvolvimento de
-                    Software Multiplataforma.
-                  </p>
-
-                  <div class="project-detail">
-                    <strong> Minha contribuição </strong>
-
-                    <p>
-                      Descrever aqui as minhas contribuições individuais no
-                      projeto 2DSM.
-                    </p>
-                  </div>
-
-                  <div class="project-detail">
-                    <strong> Tecnologias utilizadas </strong>
-
-                    <div class="tag-list">
-                      <span></span>
-                    </div>
-                  </div>
-
-                  <a
-                    href="REPOSITORIO_2DSM"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="project-link"
-                  >
-                    Ver repositório ↗
-                  </a>
+                  <span class="project-arrow">→</span>
                 </div>
-              </article>
-
-              <article class="project-card">
-                <div class="project-image project-image-two">
-                  <span> Scrum Dungeon </span>
-                </div>
-
-                <div class="project-content">
-                  <div class="project-top">
-                    <span class="project-type"> 1DSM — 1º Sem. 2026 </span>
-
-                    <span class="project-number"> 02 </span>
-                  </div>
-
-                  <h3>Scrum Dungeon</h3>
-                  <p>
-                    Projeto desenvolvido durante o primeiro semestre, com foco
-                    em aprendizado e aplicação de conceitos básicos de
-                    desenvolvimento web através de um site em estilo RPG que
-                    ensina Scrum.
-                  </p>
-
-                  <div class="project-detail">
-                    <strong> Tecnologias utilizadas </strong>
-
-                    <div class="tag-list">
-                      <span> HTML5 </span>
-
-                      <span> CSS3 </span>
-
-                      <span> JavaScript </span>
-
-                      <span> EJS </span>
-                    </div>
-                  </div>
-
-                  <div class="project-detail">
-                    <strong> Minha contribuição </strong>
-
-                    <ul class="contribution-list">
-                      <li>Prototipação Desktop / Mobile</li>
-
-                      <li>Efeitos sonoros e músicas</li>
-
-                      <li>Refatoração do código</li>
-
-                      <li>Organização da arquitetura</li>
-
-                      <li>Funcionalidades adicionais</li>
-                    </ul>
-                  </div>
-
-                  <a
-                    href="https://github.com/octopusCode26/scrum-dungeon"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="project-link"
-                  >
-                    Ver repositório ↗
-                  </a>
-                </div>
-              </article>
-            </div>
-          </div>
-
-          <div class="project-category">
-            <div class="category-heading">
-              <span></span>
-
-              <h3>Projetos Profissionais</h3>
-            </div>
-
-            <div class="empty-projects">
-              <p>Ainda não possuo projetos profissionais para apresentar.</p>
-            </div>
-          </div>
-
-          <div class="project-category">
-            <div class="category-heading">
-              <span></span>
-
-              <h3>Projetos Pessoais</h3>
-            </div>
-
-            <div class="projects-grid">
-              <article class="project-card">
-                <div class="project-image project-image-three">
-                  <span> PESSOAL </span>
-                </div>
-
-                <div class="project-content">
-                  <div class="project-top">
-                    <span class="project-type"> Projeto pessoal </span>
-
-                    <span class="project-number"> 03 </span>
-                  </div>
-
-                  <h3>Projeto Pessoal</h3>
-
-                  <p>...</p>
-
-                  <div class="project-detail">
-                    <strong> Minha contribuição </strong>
-
-                    <p>...</p>
-                  </div>
-
-                  <div class="project-detail">
-                    <strong> Tecnologias utilizadas </strong>
-
-                    <div class="tag-list">
-                      <span>...</span>
-                    </div>
-                  </div>
-
-                  <a
-                    href="REPOSITORIO_PESSOAL"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="project-link"
-                  >
-                    Ver projeto ↗
-                  </a>
-                </div>
-              </article>
-            </div>
+              </div>
+            </article>
           </div>
         </div>
       </section>
 
-      <section class="section" id="tecnologias">
+      <section class="section" id="conhecimentos">
         <div class="container">
           <div class="section-heading">
-            <p class="section-number">03</p>
-
-            <div>
-              <p class="section-label">TECNOLOGIAS</p>
-
-              <h2>
-                Ferramentas que
-                <span>utilizo.</span>
-              </h2>
-            </div>
+            <p class="eyebrow">03 · CONHECIMENTOS</p>
+            <h2>O que estou aprendendo</h2>
           </div>
 
-          <div class="technology-grid">
-            <div class="technology-card">
-              <span class="technology-icon"> &lt;/&gt; </span>
+          <div class="knowledge-grid">
+            <div class="knowledge-card">
+              <span class="knowledge-number">01</span>
+              <h3>Web</h3>
 
-              <h3>Desenvolvimento Web</h3>
-
-              <div class="tag-list">
-                <span> HTML5 </span>
-
-                <span> CSS3 </span>
-
-                <span> JavaScript </span>
-
-                <span> TypeScript </span>
+              <div class="tags">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>TypeScript</span>
               </div>
             </div>
 
-            <div class="technology-card">
-              <span class="technology-icon"> { } </span>
-
+            <div class="knowledge-card">
+              <span class="knowledge-number">02</span>
               <h3>Programação</h3>
 
-              <div class="tag-list">
-                <span> Python </span>
-
-                <span> JavaScript </span>
-
-                <span> TypeScript </span>
+              <div class="tags">
+                <span>Python</span>
+                <span>JavaScript</span>
+                <span>TypeScript</span>
               </div>
             </div>
 
-            <div class="technology-card">
-              <span class="technology-icon"> ⌘ </span>
-
+            <div class="knowledge-card">
+              <span class="knowledge-number">03</span>
               <h3>Ferramentas</h3>
 
-              <div class="tag-list">
-                <span> Git </span>
+              <div class="tags">
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>VS Code</span>
+              </div>
+            </div>
 
-                <span> GitHub </span>
+            <div class="knowledge-card">
+              <span class="knowledge-number">04</span>
+              <h3>Complementar</h3>
 
-                <span> VS Code </span>
+              <div class="knowledge-list">
+                <p>Formação DSM · Fatec Jacareí · 2026</p>
+                <p>Português · Inglês · Japonês</p>
+                <p>Tecnologia · Jogos · Programação</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- VÍDEO -->
-
-      <section class="section video-section" id="video">
+      <section class="section presentation-section" id="apresentacao">
         <div class="container">
           <div class="section-heading">
-            <p class="section-number">04</p>
-
-            <div>
-              <p class="section-label">APRESENTAÇÃO</p>
-
-              <h2>
-                Pitch
-                <span>profissional.</span>
-              </h2>
-            </div>
+            <p class="eyebrow">04 · APRESENTAÇÃO</p>
+            <h2>Vídeo de apresentação</h2>
           </div>
 
-          <div class="video-container">
-            <div class="video-player">
-              <video
-                controls
-                preload="metadata"
-                poster="assets/img/video-cover.jpg"
-              >
+          <div class="presentation-card">
+            <div class="presentation-video">
+              <video controls>
                 <source src="assets/video/video-2dsm.mp4" type="video/mp4" />
-
-                Seu navegador não suporta a reprodução de vídeo.
+                Seu navegador não suporta vídeos.
               </video>
             </div>
 
-            <div class="video-info">
-              <div class="video-label">2DSM • PITCH PROFISSIONAL</div>
-
-              <h3>Apresentação acadêmica</h3>
+            <div>
+              <p class="project-semester">2DSM · 2026</p>
+              <h3>Apresentação profissional</h3>
 
               <p>
-                Vídeo de aproximadamente 1 minuto apresentando quem sou, minhas
-                áreas de interesse, minhas contribuições nas ABPs de 1DSM e 2DSM
-                e as principais tecnologias utilizadas.
+                Vídeo de apresentação profissional referente ao segundo semestre
+                do curso de Desenvolvimento de Software Multiplataforma.
               </p>
-            </div>
-          </div>
-
-          <div class="video-topics">
-            <div>
-              <span> 01 </span>
-
-              <p>Quem sou</p>
-            </div>
-
-            <div>
-              <span> 02 </span>
-
-              <p>Áreas de interesse</p>
-            </div>
-
-            <div>
-              <span> 03 </span>
-
-              <p>Contribuições nas ABPs</p>
-            </div>
-
-            <div>
-              <span> 04 </span>
-
-              <p>Principais tecnologias</p>
             </div>
           </div>
         </div>
@@ -552,38 +309,34 @@
 
       <section class="section contact-section" id="contato">
         <div class="container">
-          <div class="contact-box">
+          <div class="section-heading">
+            <p class="eyebrow">05 · CONTATO</p>
+            <h2>Vamos conectar</h2>
+          </div>
+
+          <div class="contact-card">
             <div>
-              <p class="section-number">05</p>
-
-              <h2>Vamos conectar?</h2>
-
-              <p>
-                Confira meus projetos e acompanhe minha evolução profissional.
-              </p>
+              <p class="small-title">REDE PROFISSIONAL</p>
+              <h3>GitHub/LinkedIn</h3>
             </div>
 
-            <div class="contact-links">
+            <div class="contact-buttons">
               <a
+                class="button"
                 href="https://github.com/EnzoSuzukiProkopas"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="contact-link"
               >
-                <span> GitHub </span>
-
-                <strong> ↗ </strong>
+                Visitar GitHub →
               </a>
 
               <a
+                class="button"
                 href="https://www.linkedin.com/in/enzo-suzuki-1756b7435/"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="contact-link"
               >
-                <span> LinkedIn </span>
-
-                <strong> ↗ </strong>
+                Visitar LinkedIn →
               </a>
             </div>
           </div>
@@ -591,11 +344,93 @@
       </section>
     </main>
 
-    <footer class="footer">
-      <div class="container footer-container">
-        <p>© 2026 Enzo Suzuki</p>
+    <div class="modal" id="scrumModal" aria-hidden="true">
+      <div class="modal-overlay" id="modalOverlay"></div>
 
-        <p>Desenvolvimento de Software Multiplataforma</p>
+      <div
+        class="modal-content"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modalTitle"
+      >
+        <button
+          class="modal-close"
+          id="modalClose"
+          aria-label="Fechar detalhes"
+        >
+          ×
+        </button>
+
+        <div class="modal-header">
+          <p class="eyebrow" id="modalSemester">1DSM · 1º Sem. 2026</p>
+          <h2 id="modalTitle">Scrum Dungeon</h2>
+        </div>
+
+        <div class="modal-body">
+          <div class="modal-project-image" id="modalProjectImage">
+            <img
+              src="assets/img/scrum-dungeon.jpg"
+              alt="Projeto Scrum Dungeon"
+              id="modalImage"
+            />
+          </div>
+
+          <div class="modal-project-info">
+            <div class="modal-description">
+              <p id="modalDescription">
+                Projeto desenvolvido no primeiro semestre, utilizando uma
+                experiência em estilo RPG para ensinar conceitos de Scrum.
+              </p>
+            </div>
+
+            <div class="modal-section">
+              <p class="small-title">TECNOLOGIAS</p>
+
+              <div class="tags" id="modalTechnologies">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>EJS</span>
+              </div>
+            </div>
+
+            <div class="modal-section">
+              <p class="small-title">MINHA PARTICIPAÇÃO</p>
+
+              <p id="modalContribution">
+                Prototipação Desktop/Mobile; efeitos sonoros e músicas;
+                refatoração do código; organização da arquitetura;
+                funcionalidades adicionais.
+              </p>
+            </div>
+
+            <div class="modal-section">
+              <p class="small-title">EQUIPE</p>
+              <div class="team-grid" id="teamGrid"></div>
+            </div>
+
+            <a
+              class="button modal-repository"
+              href="https://github.com/octopusCode26/scrum-dungeon"
+              target="_blank"
+              rel="noopener noreferrer"
+              id="modalRepository"
+            >
+              Repositório →
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <div>
+          <strong>Enzo Suzuki</strong>
+          <span>DSM · Fatec Jacareí</span>
+        </div>
+
+        <span>© 2026</span>
       </div>
     </footer>
 
