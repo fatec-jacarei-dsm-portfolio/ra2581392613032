@@ -20,7 +20,7 @@ Meu objetivo é desenvolver continuamente minhas habilidades em programação, d
 
 Acesse o meu portfólio para conhecer meus projetos, habilidades e trajetória acadêmica:
 
-🔗 **[Acessar Portfólio](LINK_PARA_PORTFOLIO)**
+🔗 **[Acessar Portfólio](https://fatec-jacarei-dsm-portfolio.github.io/ra2581392613032/)**
 
 ---
 
