@@ -84,7 +84,25 @@ const projects = {
     image: "assets/img/PentaBG.png",
     imageAlt: "Background Planeta",
     repository: "https://github.com/pentascripts-organization/EcoByteMetrics",
-    team: [],
+    team: [
+      {
+        name: "Enzo Suzuki Prokopas",
+        image: "assets/img/PerfilImagem.jpeg",
+        contribution: true,
+      },
+      {
+        name: "Cauã Silva",
+        image: "assets/img/caua.jpeg",
+      },
+      {
+        name: "Vinicius Guin",
+        image: "assets/img/Vinicius.jpeg",
+      },
+      {
+        name: "Alef Gabriel Oliveira",
+        image: "assets/img/alef.jpeg",
+      },
+    ],
   },
 };
 
