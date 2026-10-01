@@ -29,8 +29,8 @@ const projects = {
     technologies: ["HTML5", "CSS3", "JavaScript", "EJS"],
     contribution:
       "Prototipação Desktop/Mobile; efeitos sonoros e músicas; refatoração do código; organização da arquitetura; funcionalidades adicionais.",
-    image: "assets/img/scrumLogo.png",
-    imageAlt: "Projeto Scrum Dungeon",
+    image: "assets/img/ScrumBG.png",
+    imageAlt: "Background Masmorra",
     repository: "https://github.com/octopusCode26/scrum-dungeon",
     team: [
       {
@@ -74,16 +74,16 @@ const projects = {
   },
 
   abp2: {
-    title: "ABP 2",
+    title: "EcoByteMetrics",
     semester: "2DSM · 2º Sem. 2026",
     description:
       "Projeto acadêmico do segundo semestre. Conteúdo em desenvolvimento.",
     technologies: ["..."],
     contribution:
       "As informações sobre minha participação serão adicionadas após a conclusão do projeto.",
-    image: "",
-    imageAlt: "",
-    repository: "#",
+    image: "assets/img/PentaBG.png",
+    imageAlt: "Background Planeta",
+    repository: "https://github.com/pentascripts-organization/EcoByteMetrics",
     team: [],
   },
 };
