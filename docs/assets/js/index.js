@@ -77,10 +77,10 @@ const projects = {
     title: "EcoByteMetrics",
     semester: "2DSM · 2º Sem. 2026",
     description:
-      "Projeto acadêmico do segundo semestre. Conteúdo em desenvolvimento.",
-    technologies: ["..."],
+      "Projeto acadêmico do segundo semestre, Criando um site que mostre emissão de carbono no mundo.",
+    technologies: ["HTML5", "CSS3", "JavaScript", "EJS", "Typescript"],
     contribution:
-      "As informações sobre minha participação serão adicionadas após a conclusão do projeto.",
+      "Correção de código, caminhos da API, verificações de erros e falhas, funcionalidades, prevenção de problemas e documentação e prototipação de telas.",
     image: "assets/img/PentaBG.png",
     imageAlt: "Background Planeta",
     repository: "https://github.com/pentascripts-organization/EcoByteMetrics",
@@ -102,6 +102,9 @@ const projects = {
         name: "Alef Gabriel Oliveira",
         image: "assets/img/alef.jpeg",
       },
+      {
+        name: "Thiago",
+        image: "assets/img/thiagoDT.jpeg",}
     ],
   },
 };
